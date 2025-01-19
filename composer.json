@@ -1,14 +1,8 @@
 {
     "name": "mailchimp/marketing",
-    "version": "3.0.80",
-    "description": "",
-    "keywords": [
-        "swagger",
-        "php",
-        "sdk",
-        "api"
-    ],
-    "homepage": "http://swagger.io",
+    "version": "4.0.0",
+    "description": "Mailchimp Marketing API for PHP 8.x",
+    "homepage": "https://github.com/HitGrab/mailchimp-marketing-php",
     "license": "proprietary",
     "authors": [
         {
@@ -17,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.4|>=8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
