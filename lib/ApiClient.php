@@ -4,4 +4,7 @@ namespace MailchimpMarketing;
 
 use MailchimpMarketing\Configuration;
 
-class ApiClient extends Configuration {}
+#[\AllowDynamicProperties]
+class ApiClient extends Configuration
+{
+}
